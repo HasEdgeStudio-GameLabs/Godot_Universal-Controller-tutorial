@@ -1,30 +1,30 @@
-[gd_scene load_steps=34 format=3 uid="uid://eec5ujuowf51"]
+[gd_scene format=3 uid="uid://eec5ujuowf51"]
 
-[ext_resource type="Script" path="res://Player/HumanoidModel/Model.gd" id="1_mokw1"]
+[ext_resource type="Script" uid="uid://dpd4hegjoprq1" path="res://Player/HumanoidModel/Model.gd" id="1_mokw1"]
 [ext_resource type="Animation" uid="uid://q6o7ddogrjmv" path="res://Assets/Ready Animations/jump_sprint.res" id="2_gpv2h"]
-[ext_resource type="Script" path="res://Player/Moves/Idle.gd" id="2_ueh1g"]
-[ext_resource type="Script" path="res://Player/HumanoidModel/Combat.gd" id="2_vd0q8"]
-[ext_resource type="Script" path="res://Player/Moves/Run.gd" id="3_7uwfn"]
+[ext_resource type="Script" uid="uid://2ub4curwcdum" path="res://Player/Moves/Idle.gd" id="2_ueh1g"]
+[ext_resource type="Script" uid="uid://dhs8kyk72n7fd" path="res://Player/HumanoidModel/Combat.gd" id="2_vd0q8"]
+[ext_resource type="Script" uid="uid://c86q7o7mnt1l3" path="res://Player/Moves/Run.gd" id="3_7uwfn"]
 [ext_resource type="Animation" uid="uid://bf1d4282m1ryw" path="res://Assets/Ready Animations/jump_run.res" id="3_b4ydi"]
 [ext_resource type="Animation" uid="uid://cvpiiqokxohra" path="res://Assets/Ready Animations/dance.res" id="4_jp0p3"]
-[ext_resource type="Script" path="res://Player/Moves/Sprint.gd" id="4_sc7ow"]
+[ext_resource type="Script" uid="uid://dobhokrguvx0c" path="res://Player/Moves/Sprint.gd" id="4_sc7ow"]
 [ext_resource type="Animation" uid="uid://cjry5u8re5msd" path="res://Assets/Ready Animations/landing_sprint.res" id="5_5qtfv"]
 [ext_resource type="Animation" uid="uid://dcklgh1qspg7t" path="res://Assets/Ready Animations/landing_run.res" id="6_a8yes"]
 [ext_resource type="Animation" uid="uid://bll6etjl7wd6m" path="res://Assets/Ready Animations/midair.res" id="7_r762r"]
-[ext_resource type="Script" path="res://Player/HumanoidModel/SkeletonAnimator.gd" id="8_5xwyl"]
+[ext_resource type="Script" uid="uid://df4ubkxdntifq" path="res://Player/HumanoidModel/SkeletonAnimator.gd" id="8_5xwyl"]
 [ext_resource type="Animation" uid="uid://dh6aqdkq8sbfr" path="res://Assets/Ready Animations/slash_1.res" id="8_x6jnv"]
 [ext_resource type="Animation" uid="uid://ceiks5ha8eb2r" path="res://Assets/Ready Animations/slash_2.res" id="9_y27cv"]
-[ext_resource type="Script" path="res://Player/Moves/JumpRun.gd" id="11_ytv5w"]
+[ext_resource type="Script" uid="uid://7lrugmnt6y6j" path="res://Player/Moves/JumpRun.gd" id="11_ytv5w"]
 [ext_resource type="PackedScene" uid="uid://6t1bl235yea4" path="res://Weapons/Models/Sword.tscn" id="12_km6ig"]
-[ext_resource type="Script" path="res://Player/Moves/Midair.gd" id="13_4x1wj"]
-[ext_resource type="Script" path="res://Player/HumanoidModel/Downcast.gd" id="15_7aq3l"]
-[ext_resource type="Script" path="res://Player/Moves/LandingRun.gd" id="16_vuv87"]
-[ext_resource type="Script" path="res://Player/Moves/JumpSprint.gd" id="17_55h4n"]
-[ext_resource type="Script" path="res://Player/Moves/LandingSprint.gd" id="18_1o7ms"]
-[ext_resource type="Script" path="res://Player/Moves/Slash1.gd" id="21_nqfl1"]
+[ext_resource type="Script" uid="uid://bh3lirvatyeo2" path="res://Player/Moves/Midair.gd" id="13_4x1wj"]
+[ext_resource type="Script" uid="uid://btgmhlxwnfift" path="res://Player/HumanoidModel/Downcast.gd" id="15_7aq3l"]
+[ext_resource type="Script" uid="uid://bhw4wy4l26bk" path="res://Player/Moves/LandingRun.gd" id="16_vuv87"]
+[ext_resource type="Script" uid="uid://33qsw2flgjl1" path="res://Player/Moves/JumpSprint.gd" id="17_55h4n"]
+[ext_resource type="Script" uid="uid://dysctm18jh8pe" path="res://Player/Moves/LandingSprint.gd" id="18_1o7ms"]
+[ext_resource type="Script" uid="uid://d1yutdrlkmxjw" path="res://Player/Moves/Slash1.gd" id="21_nqfl1"]
 [ext_resource type="PackedScene" uid="uid://bg5gwofry0vww" path="res://Player/Moves/Combos/ConsecutiveAttack.tscn" id="23_vx50f"]
-[ext_resource type="Script" path="res://Player/Moves/Slash2.gd" id="24_mrqgx"]
-[ext_resource type="Script" path="res://Player/Moves/Slash3.gd" id="27_3su4b"]
+[ext_resource type="Script" uid="uid://cjlcuh62enr5y" path="res://Player/Moves/Slash2.gd" id="24_mrqgx"]
+[ext_resource type="Script" uid="uid://cfjbb7tvncq5q" path="res://Player/Moves/Slash3.gd" id="27_3su4b"]
 
 [sub_resource type="Animation" id="Animation_k5lpg"]
 resource_name = "TPose"
@@ -2529,19 +2529,19 @@ tracks/71/keys = PackedFloat32Array(0, 1, 1.49012e-08, 1.49012e-08, 0, 1)
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3o6mw"]
 _data = {
-"TPose": SubResource("Animation_k5lpg"),
-"dance": ExtResource("4_jp0p3"),
-"idle": SubResource("Animation_k577b"),
-"jump_run": ExtResource("3_b4ydi"),
-"jump_sprint": ExtResource("2_gpv2h"),
-"landing_run": ExtResource("6_a8yes"),
-"landing_sprint": ExtResource("5_5qtfv"),
-"midair": ExtResource("7_r762r"),
-"run": SubResource("Animation_tlquh"),
-"slash_1": ExtResource("8_x6jnv"),
-"slash_2": ExtResource("9_y27cv"),
-"slash_3": SubResource("Animation_kbxkj"),
-"sprint": SubResource("Animation_rvpwv")
+&"TPose": SubResource("Animation_k5lpg"),
+&"dance": ExtResource("4_jp0p3"),
+&"idle": SubResource("Animation_k577b"),
+&"jump_run": ExtResource("3_b4ydi"),
+&"jump_sprint": ExtResource("2_gpv2h"),
+&"landing_run": ExtResource("6_a8yes"),
+&"landing_sprint": ExtResource("5_5qtfv"),
+&"midair": ExtResource("7_r762r"),
+&"run": SubResource("Animation_tlquh"),
+&"slash_1": ExtResource("8_x6jnv"),
+&"slash_2": ExtResource("9_y27cv"),
+&"slash_3": SubResource("Animation_kbxkj"),
+&"sprint": SubResource("Animation_rvpwv")
 }
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_djdo1"]
@@ -2550,20 +2550,18 @@ albedo_color = Color(0, 0.639216, 0, 1)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vsr0n"]
 albedo_color = Color(1, 0, 0, 1)
 
-[node name="Model" type="Node3D"]
+[node name="Model" type="Node3D" unique_id=539814070]
 script = ExtResource("1_mokw1")
 
-[node name="Combat" type="Node" parent="."]
+[node name="Combat" type="Node" parent="." unique_id=1042569667]
 script = ExtResource("2_vd0q8")
 
-[node name="SkeletonAnimator" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_3o6mw")
-}
+[node name="SkeletonAnimator" type="AnimationPlayer" parent="." unique_id=1187788513]
+libraries/ = SubResource("AnimationLibrary_3o6mw")
 playback_default_blend_time = 0.15
 script = ExtResource("8_5xwyl")
 
-[node name="GeneralSkeleton" type="Skeleton3D" parent="."]
+[node name="GeneralSkeleton" type="Skeleton3D" parent="." unique_id=903124533]
 unique_name_in_owner = true
 motion_scale = 1.04275
 bones/0/name = "Hips"
@@ -3022,83 +3020,83 @@ bones/64/position = Vector3(-3.26551e-08, 0.0927813, 6.74148e-06)
 bones/64/rotation = Quaternion(0, 0, 0, 1)
 bones/64/scale = Vector3(1, 1, 1)
 
-[node name="Root" type="BoneAttachment3D" parent="."]
-transform = Transform3D(1, 6.76543e-17, 3.9968e-15, -6.76541e-17, 1, -2.8871e-08, -3.9968e-15, 2.8871e-08, 1, 6.39434e-08, 1.04271, 0.0155426)
+[node name="Root" type="BoneAttachment3D" parent="." unique_id=1920200811]
+transform = Transform3D(1, 6.765426e-17, 3.9968e-15, -6.765414e-17, 1, -2.8871e-08, -3.9968e-15, 2.8871e-08, 1, 6.39434e-08, 1.04271, 0.0155426)
 bone_name = "Hips"
 bone_idx = 0
 use_external_skeleton = true
 external_skeleton = NodePath("../GeneralSkeleton")
 
-[node name="RightWrist" type="BoneAttachment3D" parent="."]
-transform = Transform3D(-8.0678e-08, -1, 1.19209e-07, -2.79397e-08, -1.19209e-07, -1, 1, -8.0678e-08, -2.79397e-08, -0.713332, 1.44057, -0.0554854)
+[node name="RightWrist" type="BoneAttachment3D" parent="." unique_id=1688619542]
+transform = Transform3D(-8.067801e-08, -1, 1.1920913e-07, -2.7939679e-08, -1.1920913e-07, -1, 1, -8.0678014e-08, -2.793967e-08, -0.7133317, 1.440574, -0.05548539)
 bone_name = "RightHand"
 bone_idx = 10
 use_external_skeleton = true
 external_skeleton = NodePath("../GeneralSkeleton")
 
-[node name="WeaponSocket" type="Node3D" parent="RightWrist"]
+[node name="WeaponSocket" type="Node3D" parent="RightWrist" unique_id=1192704197]
 transform = Transform3D(1, 1.78814e-07, -4.47035e-07, 5.36442e-07, 1, 7.7486e-07, 3.72529e-07, -4.76837e-07, 1, 0.00821424, 0.0627739, 0.0286357)
 
-[node name="Sword" parent="RightWrist/WeaponSocket" instance=ExtResource("12_km6ig")]
+[node name="Sword" parent="RightWrist/WeaponSocket" unique_id=785313523 instance=ExtResource("12_km6ig")]
 transform = Transform3D(0.155062, 0.932331, 0.326672, -0.876806, 0.282232, -0.389304, -0.455157, -0.226062, 0.861236, 0, 0, 0)
 
-[node name="Downcast" type="RayCast3D" parent="."]
+[node name="Downcast" type="RayCast3D" parent="." unique_id=2125037090]
 target_position = Vector3(0, -100, 0)
 script = ExtResource("15_7aq3l")
 
-[node name="CSGSphere3D" type="CSGSphere3D" parent="Downcast"]
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Downcast" unique_id=1765487776]
 visible = false
 material_override = SubResource("StandardMaterial3D_djdo1")
 radius = 0.2
 
-[node name="CSGSphere3D2" type="CSGSphere3D" parent="Downcast"]
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="Downcast" unique_id=1475153186]
 visible = false
 material_override = SubResource("StandardMaterial3D_vsr0n")
 radius = 0.1
 
-[node name="States" type="Node" parent="."]
+[node name="States" type="Node" parent="." unique_id=143708819]
 
-[node name="Idle" type="Node" parent="States"]
+[node name="Idle" type="Node" parent="States" unique_id=1197707168]
 script = ExtResource("2_ueh1g")
 
-[node name="Run" type="Node" parent="States"]
+[node name="Run" type="Node" parent="States" unique_id=2024472818]
 script = ExtResource("3_7uwfn")
 
-[node name="Sprint" type="Node" parent="States"]
+[node name="Sprint" type="Node" parent="States" unique_id=1456648237]
 script = ExtResource("4_sc7ow")
 
-[node name="JumpRun" type="Node" parent="States"]
+[node name="JumpRun" type="Node" parent="States" unique_id=905250391]
 script = ExtResource("11_ytv5w")
 
-[node name="Midair" type="Node" parent="States"]
+[node name="Midair" type="Node" parent="States" unique_id=1327096640]
 script = ExtResource("13_4x1wj")
 
-[node name="LandingRun" type="Node" parent="States"]
+[node name="LandingRun" type="Node" parent="States" unique_id=511845811]
 script = ExtResource("16_vuv87")
 
-[node name="JumpSprint" type="Node" parent="States"]
+[node name="JumpSprint" type="Node" parent="States" unique_id=792563144]
 script = ExtResource("17_55h4n")
 
-[node name="LandingSprint" type="Node" parent="States"]
+[node name="LandingSprint" type="Node" parent="States" unique_id=106071665]
 script = ExtResource("18_1o7ms")
 
-[node name="Slash1" type="Node" parent="States"]
+[node name="Slash1" type="Node" parent="States" unique_id=492400226]
 script = ExtResource("21_nqfl1")
 
-[node name="ConsecutiveAttack" parent="States/Slash1" node_paths=PackedStringArray("root_move") instance=ExtResource("23_vx50f")]
+[node name="ConsecutiveAttack" parent="States/Slash1" unique_id=1951759890 node_paths=PackedStringArray("root_move") instance=ExtResource("23_vx50f")]
 root_move = NodePath("..")
 panic_click_block = 0.1
 primary_input = "slash_1"
 next_attack = "slash_2"
 
-[node name="Slash2" type="Node" parent="States"]
+[node name="Slash2" type="Node" parent="States" unique_id=1183130567]
 script = ExtResource("24_mrqgx")
 
-[node name="ConsecutiveAttack" parent="States/Slash2" node_paths=PackedStringArray("root_move") instance=ExtResource("23_vx50f")]
+[node name="ConsecutiveAttack" parent="States/Slash2" unique_id=1591669421 node_paths=PackedStringArray("root_move") instance=ExtResource("23_vx50f")]
 root_move = NodePath("..")
 panic_click_block = 0.1
 primary_input = "slash_1"
 next_attack = "slash_3"
 
-[node name="Slash3" type="Node" parent="States"]
+[node name="Slash3" type="Node" parent="States" unique_id=1878081695]
 script = ExtResource("27_3su4b")
