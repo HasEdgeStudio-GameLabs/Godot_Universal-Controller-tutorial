@@ -10,4 +10,3 @@ func _physics_process(delta):
 	model.update(input, delta)
 	
 	# Visuals -> follow parent transformations
-
